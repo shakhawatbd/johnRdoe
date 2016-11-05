@@ -1,0 +1,125 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4 {
+    color: #444343;
+    },
+h5,
+h6 {
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+/* header-top section start */
+.header-top {
+    padding-top: 52px;
+    padding-bottom: 297px;
+    background: url(../images/header_background.png);
+}
+.twit {
+    height: 18px;
+}
+.header-top h4 {
+}
+
+/* header-top section end */
+
+/*slider section start*/
+
+.slider {
+    margin-top: -248px;
+}
+/*slider section end*/
+
+/* portfolio section start */
+.portfolio {
+}
+.about p {
+    padding-left: 165px;
+}
+/* portfolio section end */
+
+/* image section start */
+.images{
+    padding-top: 100px;
+    padding-bottom: 45px;
+    background-image: url(../images/portfolio_background.png);
+}
+.images img{
+    padding-bottom: 12px;
+}
+
+/* image section end */
+
+/* contact section start */
+.contact {
+    margin-left: 40px;
+    padding-top: 60px;
+}
+.first {
+    height: 50px;
+    width: 730px;
+    background-color: #EBEBEB;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+.third {
+    width: 730px;
+    height: 180px;
+    background-color: #EBEBEB;
+
+}
+/* contact section end */
+
+/* footer section start */
+.footer {
+    border-top: 1px solid #EBEBEB;
+}
+/* footer section end */
+
+
+
+@media screen and (max-width: 480px){
+    
+.header-top h4 {
+    width: ;
+}
+
+}
+
+
+@media (min-width: 480px) and (max-width: 768px){
+    
+
+}
+
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
