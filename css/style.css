@@ -54,6 +54,8 @@ a:hover { text-decoration: none }
     color: #444343;
 }
 .header-top h4 {
+    font-style: ;
+    font-family: 'Playfair Display', serif;
 }
 
 /* header-top section end */
