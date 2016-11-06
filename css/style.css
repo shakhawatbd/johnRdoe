@@ -16,13 +16,20 @@ img {
     max-width: 100%;
     height: auto;
 }
-h1,
-h2,
-h3,
+p {
+    font-size: ;
+    line-height: ;
+}
+h1 {
+    color: #444343;
+    font-size: 75px; 
+}
+h2
+h3
 h4 {
     color: #444343;
-    },
-h5,
+    }
+h5
 h6 {
 }
 html,
@@ -39,8 +46,12 @@ a:hover { text-decoration: none }
     padding-bottom: 297px;
     background: url(../images/header_background.png);
 }
-.twit {
-    height: 18px;
+.header-top ul {
+    margin-top: 10px;
+}
+.ftdi {
+    font-size: 16px;
+    color: #444343;
 }
 .header-top h4 {
 }
@@ -56,48 +67,132 @@ a:hover { text-decoration: none }
 
 /* portfolio section start */
 .portfolio {
+    padding-bottom: 65px;
 }
-.about p {
-    padding-left: 165px;
+.portfolio h4 {
+    margin-top: 45px;
+    margin-bottom: -10px;
+    font-size: 30px;
 }
+.about {
+    margin-top: 30px;
+}
+.center {
+    padding-left: 70px;
+}
+.right {
+    padding-left: 120px;
+}
+
 /* portfolio section end */
 
 /* image section start */
-.images{
-    padding-top: 100px;
-    padding-bottom: 45px;
+.image{
+    padding-top: 72px;
+    padding-bottom: 78px;
     background-image: url(../images/portfolio_background.png);
 }
-.images img{
+.image-lft {
+    margin-left: -15px;
+    margin-right: 12px;
+}
+.image-rght {
+    margin-right: -15px;
+}
+.image img{
     padding-bottom: 12px;
 }
+.image-large {
+    width: 100%;
+    height: 615px;
+}
+
 
 /* image section end */
 
 /* contact section start */
 .contact {
-    margin-left: 40px;
-    padding-top: 60px;
+    padding-top: 70px ;
+    padding-bottom: 70px;
 }
-.first {
-    height: 50px;
-    width: 730px;
+.text-field-one
+{
+    background: url(../images/feedback_user.png)no-repeat 10px 13px #444343;
     background-color: #EBEBEB;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-bottom: 15px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 1px 7px 0px #888888;
+    border-radius: 3px;
+    color: ;
+    font-size: 15px;
+    height: 45px;
+    margin-bottom: 0;
+    padding-left: 35px;
+    width:;
 }
-.third {
-    width: 730px;
-    height: 180px;
+.text-field-two
+{
+    background: url(../images/feedback_message.png)no-repeat 10px 15px #444343;
     background-color: #EBEBEB;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 1px 7px 0px #888888;
+    border-radius: 3px;
+    color: ;
+    font-size: 15px;
+    height: 45px;
+    margin-bottom: 0;
+    padding-left: 35px;
+    width:;
+}
+.text-field-three
+{
+    background: url(../images/globe.png)no-repeat 10px 13px #444343;
+    background-color: #EBEBEB;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 1px 7px 0px #888888;
+    border-radius: 3px;
+    color: ;
+    font-size: 15px;
+    height: 45px;
+    margin-bottom: 0;
+    padding-left: 35px;
+    width:;
+}
+.message {
+    background-color: #EBEBEB;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 1px 7px 0px #888888;
+    border-radius: 3px;
+}
+.butn {
+    padding: 10px 35px;
+    background-color: #EBEBEB;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 1px 7px 0px #888888;
+    border-radius: 3px;
+}
+
+.john img {
+    height: 38%;
+    width: 213px;
+}
+.follow {
+    margin-top: 10px ;
+    margin-left: -10px;
 
 }
 /* contact section end */
 
 /* footer section start */
 .footer {
+    padding-top: ;
+    padding-bottom: 60px;
+}
+.brdr {
     border-top: 1px solid #EBEBEB;
+    margin-top:;
+}
+.top-space {
+    padding-top: 40px;
 }
 /* footer section end */
 
